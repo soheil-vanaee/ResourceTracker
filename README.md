@@ -1,7 +1,3 @@
-Sure! Here's a **README** for your project:
-
----
-
 # System Monitor - C Program
 
 This is a simple system monitoring tool written in C using `ncurses` library. It provides a real-time display of the system's **CPU usage**, **Memory usage**, and **Disk usage** in a tabular format. The data is updated every second to show live system information.
@@ -13,17 +9,7 @@ This is a simple system monitoring tool written in C using `ncurses` library. It
 - Information is displayed in three columns: **CPU**, **Memory**, and **Disk**.
 - No borders are around the table for a cleaner look.
 
-### Screenshots
-The following is an example of what the output will look like:
 
-```
-CPU      | Memory      | Disk
------------------------------------
-CPU Usage   : 25.5%    | Memory Usage: 4096 MB | Disk Usage  : 500 GB
-CPU Usage   : 20.3%    | Memory Usage: 2048 MB | Disk Usage  : 200 GB
-```
-
----
 
 ### Prerequisites
 To run the program, you need to have the following tools installed on your system:
@@ -46,8 +32,8 @@ sudo apt-get install libncurses5-dev libncursesw5-dev
 
 1. **Clone the repository** (or copy the code to a folder):
     ```bash
-    git clone https://your-repository-url
-    cd your-project-folder
+    git clone https://github.com/soheil-vanaee/ResourceTracker
+    cd ResourceTracker
     ```
 
 2. **Compile the code**:
@@ -102,16 +88,3 @@ sudo apt-get install libncurses5-dev libncursesw5-dev
 
 ---
 
-### License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-### Contact
-For any inquiries or questions, feel free to contact the project owner at:
-
-- **Email**: your-email@example.com
-
----
-
-This **README** provides an overview of how to use, install, and contribute to the system monitor tool.
